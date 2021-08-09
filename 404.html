@@ -6,7 +6,10 @@
 		</style>
 		<script>
 			var body=document.getElementsByTagName("body");
-			body[0].onclick=alert("emm...");
+			body[0].onclick=function(){
+				setTimeout(function(){location.href="index.html"},5000);
+				alert("emm...It will back in 5s...");
+			};
 		</script>
     </head>
     <body>
