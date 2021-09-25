@@ -11,6 +11,19 @@
 			console.log("QQ:2020958753");
 		</script>
 		<style>
+			#scroll-line{background-color:red;
+				position:fixed;
+				top:0px;left:0px;
+				height:10px;width:10px;
+				text-align:right;
+				}
+	#scroll-line:hover{height:30px}
+			#baif{
+		text-align:right;
+		padding:4px 6px 4px;
+		display:inline-block;
+		background-color:pink;
+	}
 			html{//background:url(bg.bmp) no-repeat;}
 			p{animation:Qp 1s;}
 			
@@ -116,6 +129,8 @@
 		</style>
 	</head>
 	<body>
+		<div id="scroll-line">
+		<div id="baif" style></div>
 		<header id="header">
 			<h1 style="display:inline;text-align:center;" alt="别摸我">欢迎来到我的网站 ;D</h1>
 		</header>
@@ -158,4 +173,35 @@
 			</div>
 		</div>
 	</body>
+	<script>
+function getScrollTop(){
+var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;  
+console.log(scrollTop)
+return scrollTop;}  
+
+function setScrollTop(scroll_top){
+document.documentElement.scrollTop = scroll_top;
+window.pageYOffset = scroll_top;
+document.body.scrollTop = scroll_top;}
+var sl=document.getElementById('scroll-line');
+var bf=document.getElementById('baif');
+var ct=document.getElementById('content');
+document.onscroll=function() {
+        var wintop = getScrollTop(),
+                docheight =document.body.scrollHeight,
+                winheight = document.documentElement.clientHeight;
+        var scrolled = (wintop / (docheight - winheight)) * 100;
+        bf.innerHTML=(scrolled+'').split(".")[0]+"%";
+		sl.style.width=scrolled+'%';
+};
+bf.onmousedown=function(){
+	console.log(011);
+}
+document.ononline=function(){
+	ct.innerHTML="--Online--";
+}
+document.onoffline=function(){
+	ct.innerHTML="--Offline--";
+}
+</script>
 </html>
