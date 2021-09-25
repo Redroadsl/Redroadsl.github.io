@@ -72,7 +72,7 @@
 			#content{
 				text-align: center;
 				//width:70%;
-				margin:0px 10%;
+				margin:0px 13%;
 				height:80%;
 			}
 			
@@ -171,6 +171,10 @@
 					<a href="./SOURCE/biliAdBlock.user.js" target="_blank"><div class="linker">哔哩哔哩主页去广告（Beta）</div></a>
 				</div>
 			</div>
+			<div id="cont" class="br">
+				<h2 class="subtitle">这里的内容未定。。。</h2>
+				<p>有什么建议请联系我<br/><br/><br/><br/><br/><br/><br/><br/><br/> </p>
+			</div>
 		</div>
 	</body>
 	<script>
@@ -185,7 +189,7 @@ window.pageYOffset = scroll_top;
 document.body.scrollTop = scroll_top;}
 var sl=document.getElementById('scroll-line');
 var bf=document.getElementById('baif');
-var ct=document.getElementById('content');
+//var ct=document.getElementById('content');
 document.onscroll=function() {
         var wintop = getScrollTop(),
                 docheight =document.body.scrollHeight,
@@ -194,14 +198,14 @@ document.onscroll=function() {
         bf.innerHTML=(scrolled+'').split(".")[0]+"%";
 		sl.style.width=scrolled+'%';
 };
-bf.onmousedown=function(){
-	console.log(011);
-}
-document.ononline=function(){
-	ct.innerHTML="--Online--";
-}
-document.onoffline=function(){
-	ct.innerHTML="--Offline--";
-}
+//bf.onmousedown=function(){
+//	console.log(011);
+//}
+//document.ononline=function(){
+//	ct.innerHTML="--Online--";
+//}
+//document.onoffline=function(){
+//	ct.innerHTML="--Offline--";
+//}
 </script>
 </html>
