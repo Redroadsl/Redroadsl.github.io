@@ -136,14 +136,29 @@
 			<div id="baif"></div></div>
 		<header id="header">
 			<h1 style="display:inline;text-align:center;" alt="别摸我">欢迎来到我的网站 ;D</h1>
-			<audio id="bgm" style="display:none;position:fixed;" controls autoplay>
+			<audio id="bgm" autoplay>
   				<source src="mikuv4_eng.mp3" type="audio/mpeg">
 				<span style="color:gray;">你的浏览器不爱听歌呦！</span>
 			</audio>
 			<script>
+				var playing=true;
 				var bgm=document.getElementById("bgm");
 				bgm.volume=0.5;
+				function bgmctrl()
+				{
+					if(playing)
+					{
+						bgm.pause();
+						playing=false;
+					}
+					else
+					{
+						bgm.play()
+						playing=true;
+					}
+				}
 			</script>
+			<button style="position:fixed;top:0px;left:0px;" onclick="bgmctrl();" type="button">我想静静</button>
 		</header>
 		<div id="content">
 			<div id="comment" class="br" style="text-align:center">
