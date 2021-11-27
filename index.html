@@ -139,7 +139,7 @@
 		</header>
 		<div id="content">
 			<div id="comment" class="br" style="text-align:center">
-				<p>这是Redroadsl的网页 (手工制作)</p>
+				<p>这是Redroadsl的网页 (手工制作)<br/><span style="color:gray;">使用了Cookie技术</span></p>
 			</div>
 			<div id="main" class="br">
 				<h2 class="subtitle">个人介绍</h2>
@@ -222,5 +222,44 @@ document.onscroll=function() {
 })
 
 gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
+	</script>
+	<script>
+		function checkCookie() //Check Cookie
+		{
+  			var username=getCookie("username");
+  			if (username!="")
+  			{
+    			alert("Welcome again " + username);
+  			}
+  			else 
+  			{
+   				username = prompt("Please enter your name:","");
+    			if (username!="" && username!=null)
+    			{
+      			setCookie("username",username,365);
+    			}
+  			}
+		}
+		function getCookie(cname) //Get Cookie
+		{
+  			var name = cname + "=";
+  			var ca = document.cookie.split(';');
+  			for(var i=0; i<ca.length; i++) 
+  			{
+    			var c = ca[i].trim();
+    			if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+			}
+  			return "";
+		}
+		
+		function setCookie(cname,cvalue,exdays) //Create Cookie
+		{
+  			var d = new Date();
+  			d.setTime(d.getTime()+(exdays*24*60*60*1000));
+  			var expires = "expires="+d.toGMTString();
+  			document.cookie = cname + "=" + cvalue + "; " + expires;
+		}
+		
+		setCookie("Cookie1","ThisIsACookieTest",1);
 	</script>
 </html>
