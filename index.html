@@ -245,7 +245,10 @@ document.onscroll=function() {
   repo: 'Redroadsl.github.io',      // 存放评论的仓库
   owner: 'Redroadsl',          // 仓库的创建者，
   admin: ['Redroadsl'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
-  id: location.pathname,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+  id: location.href,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+	language: 'zh-CN',
+	labels: ['GitTalk'],
+	title: 'GitTalk'
 })
 
 gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
