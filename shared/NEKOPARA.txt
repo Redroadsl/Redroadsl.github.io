@@ -1,0 +1,116 @@
+<！DOCTYPE="TEXT" ENCODING="utf-8" >
+首语：资源花了我大量时间和电费整理，且用且珍惜。所有资源均精简掉了没必要的文件，Steam依赖被我完全移除。以下中括号内是文件夹名称，尖括号内是文件名称，底下标注秒传链接，具体方法自行百度。
+
+［根目录］
+<#Readme事先阅读.TXT>
+●游戏名称：ネコぱら NEKOPARA 猫娘乐园 巧克力与香子兰 巧克力与香草 
+●解压密码：Neko 
+●注意事项：
+1、本游戏含有少儿不宜的成人内容！请勿在公共场合或给未成年人播放，并做好心理准备。 
+2、请先解压完毕再启动游戏。解压前请您确认有足够的磁盘空间（和足够的耐心）。 
+3、电脑版必须先安装DirectX9.0或更高版本，否则无法显示E-mote动画甚至无法启动。 
+4、压缩包均经过高度压缩，解压大约需要五百兆运行内存，解压完毕建议酌情校验。 
+5、Vol.3解压后为.iso光盘映像。安装时请先挂载映像再运行NEKOPARAvol3.exe安装。 
+6、经过修改，Steam已经被完美绕过。游戏存档保存在游戏目录下（注：Vol3在%APPDATA%下） 
+7、手机版用户：Vol4电脑版和手机版通用，其余用手机版资源。手机端需要吉里吉里2模拟器。 
+8、为了获得最佳游玩体验，推荐的游玩顺序为游戏发布日期顺序，即vol1vol0vol2vol3Extravol4 
+9、分享的资源仅供个人学习用途，请勿违法传播或用于商业用途，请在下载24小时内删除。 
+●压缩文件校验（SHA-256） 
+▲Vol.0-7z：348.34 MB（365257351）380382d859e152b18aca1691405a6be1bc453615dcc2ba294be47f97c7ba76b1 
+▲Vol.1-7z：1.68 GB（1807985715）6f2cf607350ad527f501a7c648e3a1635cff7a5a6686e0cf27471df2eabf3e71 
+▲Vol.2-7z：1.66 GB（1781421904）def18eff6e960b45a4f2f5f8f9c353d8375fa22258b03c6936f1c2ec56179781 
+▲Vol.3-7z：3.04 GB（3261399260）2d22de73cf0314b7f747f7ca8ae1b9e847984c0359512434b5c4167696ff6510 ※Vol.3-iso：3.04 GB（3261399040）e462a2ea733264b144b6710bb7d48c984e3ee75d68bfd1252ff686daf1989968 
+▲Vol.4-7z：3.59 GB（3855937724）4c9aa083b811b8e95b2039bfa02e4a4e8d114c8fb27c77bf0a8a3d0b8f8205d5 
+▲Extra-7z：1.12 GB（1203151799）8b4331624fbeb789914053650f47cb3e8b1b95e93514e9601f35c37a22f60307 
+2023年6月22日*********敬上 
+秒传链接：
+da26bda5614a8355ae5fbd3bb09a9387#da26bda5614a8355ae5fbd3bb09a9387#1970##Readme事先阅读.TXT
+
+<DirectX Setup必须安装.7z>
+秒传链接：
+0ed5702ed11c63e13013d3b4abefa7b3#031df9dac353a3717e9c4ef8e912161a#95422244#DirectX必须安装.7z
+
+<nekopara_extra.7z>
+秒传链接：
+f93e89677f645407371cc8987cf2bafa#28173dd0969efd767c57aca5661d06a0#1203151799#nekopara_extra.7z
+
+<nekopara_vol0.7z>
+秒传链接：
+fc4fed141fd45cffb6f7f28404cbbb1d#60fcb53cbff803dda822e0fd38fb260f#365257351#nekopara_vol0.7z
+
+<nekopara_vol1.7z>
+秒传链接：
+52b5eccd114805613141d9b7a189fbc6#b0cc456cb08a673f95c853d1748954f9#1807985715#nekopara_vol1.7z
+
+<nekopara_vol2.7z>
+秒传链接：
+e3701805693fc36083d7f1c2b8dcd5e7#d51bd487ee4d19fe89e1f6a646e04feb#1781421904#nekopara_vol2.7z
+
+<nekopara_vol3.7z>
+秒传链接：
+d19f4a1d9a281f55f9b52eab957a9019#8b863a151b49320237da5e01fc3148f7#3261399260#nekopara_vol3.7z
+
+<nekopara_vol4.7z>
+秒传链接：
+8093b6976ab3c7bf837e460056479dba#c88ab6b1e31ff23745776b0d1f5ec7ce#3855937724#nekopara_vol4.7z
+
+##########################
+##########################
+
+［手机版Mobile］
+<# Q&A 疑问解答必看.TXT>
+●如何解压？ 
+我用的app是MT管理器，你也可以用系统自带文件管理器或ZArchiver等解压缩软件#解压密码是Neko 
+●如何启动？ 
+在Android/iOS平台下载各自的吉里吉里2模拟器（Kirikiroid2，最新版本为1.3.9） 
+（Android用户会被提示SDK版本过低，请无视） 
+解压后，打开模拟器，在右侧文件浏览器栏找到游戏目录，点击data.xp3即可启动
+（PS：iOS端AppStore的XP3Player比较贵，有能力者可下载ipa自行部署） 
+●有广告？！？！？ 
+关闭模拟器联网权限，在模拟器全局设置最下面勾选“加载时不显示广告” 
+●启动后游戏画面不在中间怎么办？ 
+关闭重开。 
+●模拟器没有角色立绘E-mote怎么办？
+（此问答答案来自Redroadsl，在小破站有视频讲解） 
+▲法1（兼容性好，但E-mote效果不好且卡顿发热） 
+1、打开模拟器，右上角菜单，全局设置，图形渲染器改为“软件渲染器”。 
+▲法2（兼容性一般，但是流畅且丝滑，新手机基本都支持） 
+1、打开模拟器，右上角菜单，全局设置，图形渲染器改为“OpenGL（实验性）” 
+2、渲染器高级选项，关闭精确渲染模式。OpenGL扩展，全部取消勾选。 
+（如果你有技术基础，可以选择性打开一些扩展来提升性能） 
+●为什么没有Vol.3？ 
+因为Vol.3使用了CatSystem2引擎，暂时无人移植到krkr手机版（懒） 
+●为什么没有Vol.4？ 
+因为Vol.4电脑板手机版通用，下载电脑版即可。 
+还有更多问题可以通过各种途径找网友或Redroadsl会尽力解决。2023.6.22 
+
+<NEKOPARA Vol. 0.7z>
+秒传链接：
+6b3e066983ac8b24dc6d44a1c05a999d#b07cc80d1e9ea4a78df32991d2dab800#344072304#NEKOPARA Vol. 0.7z
+
+<NEKOPARA Vol. 1>
+秒传链接：
+f54aff468c4226bb90b64eec6eb0fd77#54f402ca9ba659bb70a4276fe3232150#630920000#NEKOPARA Vol. 1.7z
+
+<NEKOPARA Vol. 2>
+秒传链接：
+fcff2118b235dec17458ba9917701ae5#f1e0d2b71147128670c096c706fe3051#947279957#NEKOPARA Vol. 2.7z
+
+［模拟器Emulator］
+<[Android]Kirikiroid2_1.3.9.apk>
+秒传链接：
+a5a0ed0b2096f752f7ab879289fe15ca#0180c1f03be333374a2f803269138656#32304636#[Android]Kirikiroid2_1.3.9.apk
+
+<[iOS]Kirikiroid2_1.3.9.ipa>
+秒传链接：
+5d8082148166255d33a230f2154faf70#339d254b09f234cca18d2404bc9a9230#30824542#[iOS]Kirikiroid2_1.3.9.ipa
+
+<SHA-256.TXT>
+NEKOPARA Vol. 0：ca5973c61d2b4504d7da48a5e24ed91be123b2b5d6dca86d0bdb84db54b09ae1 
+NEKOPARA Vol. 1：c693d165d79c1c0104f6790999409bd34cbf1591262bf8cd0351fe9becd34a3a 
+NEKOPARA Vol. 2：28342b553819c052e4f46c55d909cdbfc59343dea7433bfe3a3bd7e32d01b103 
+[Android]Kirikiroid2_1.3.9.apk：7df08d36726e8640cf1f78b0154d19f8a24ccb090be97b9ec7b9de2e55acba5a 
+[iOS]Kirikiroid2_1.3.9.ipa：96bb5c01631e2c5927c761b14839dfb53fabaf09d8a20e24250cbc29686a364b 
+
+结语：由于删减了没用的文件，某些数字纪念品也被删减，如有需要可以私下联系我。
+  
