@@ -2,11 +2,13 @@
 20230622-创建了本文件。
 20230623-更新了防傻不防呆。
 20230626-为Vol.4添加了手机版补丁。
+20230630-添加了电脑版补丁。
+20230702-补齐电脑版正版补丁，移除了手机版补丁的冗余概述。
 
 首语：资源花了我大量时间和电费整理，且用且珍惜。
 所有资源均精简掉了没必要的文件，Steam依赖被我完全移除。
 
-
+本文档构建了文字基础的虚拟文件夹结构。
 文件夹结构图：
 ◢ [根目录下为电脑版资源]
 |-#Readme事先阅读.TXT
@@ -17,9 +19,12 @@
 |-nekopara_vol2.7z
 |-nekopara_vol3.7z
 |-nekopara_vol4.7z
+|
 |––◢ [正版补丁Patch]
 |    |-NekoparaVol1Patch.7z
 |    |-NekoparaVol2Patch.7z
+|    |-NekoparaVol3Patch.7z
+|    |-NekoparaVol4Patch.7z
 |
 |––◢ [手机版Mobile]
 |    |-# Q&A 疑难解答必看.TXT
@@ -28,6 +33,7 @@
 |    |-NEKOPARA Vol. 2.7z
 |    |-patch.tjs
 |    |-SHA-256.TXT
+|    |
 |    |––◢ [模拟器Emulator]
 |    |    |-[Android]Kirikiroid2_1.3.9.apk
 |    |    |-[iOS]Kirikiroid2_1.3.9.ipa
@@ -45,6 +51,7 @@
 # 以下的内容中括号内是文件夹名称，尖括号内是文件名称，
 # 底下标注秒传链接，具体方法自行百度或者看我b站视频。
 
+————————————————
 ［根目录］
 ■■■■■■■■■■■■■■■■请阅读说明！
 ■■■■■ 电脑版资源 ■■■■■请阅读说明！
@@ -79,14 +86,20 @@ e462a2ea733264b144b6710bb7d48c984e3ee75d68bfd1252ff686daf1989968
 8844b8c77a13e974800e8f19ddc355b2a6135dc95421341908700f51e76ba9f9
 ▲Extra-7z：1.12 GB（1203151799）
 8b4331624fbeb789914053650f47cb3e8b1b95e93514e9601f35c37a22f60307
-●注意，电脑版补丁仅正版用户按需下载，分享版用户无需下载。
+●注意，电脑版补丁仅电脑正版用户按需下载，分享版用户无需下载。
 ▲Vol1Patch
 36808d29f73c3545f0ae651f937149a4206bff224e940e2a01dd298211af6605
 ▲Vol2Patch
 498c1b53a34e531cf92cb66183ba3558441b79cc17a810b67718ac58d03e5a49
-2023年6月22日 首次编辑。
-2023年6月26日 为vol4增加手机版补丁。
-2023年6月30日 更新了电脑版补丁。
+▲Vol3Patch
+748b01ddd44ae77a762b8226699425bbea594c5935122e7d986d1ab1e2133780
+▲Vol4Patch
+9881be59953477faa0d1309c32da7f9f7572dacd385db826f6f4359db7957be8
+修改日志：
+2023年06月22日 首次编辑。
+2023年06月26日 为vol4增加手机版补丁。
+2023年06月30日 更新了电脑版补丁。
+2023年07月02日 补齐了电脑版补丁。
 
 <DirectX Setup必须安装.7z>
 秒传链接：
@@ -116,12 +129,26 @@ d19f4a1d9a281f55f9b52eab957a9019#8b863a151b49320237da5e01fc3148f7#3261399260#nek
 秒传链接：
 8093b6976ab3c7bf837e460056479dba#c88ab6b1e31ff23745776b0d1f5ec7ce#3855937724#nekopara_vol4.7z
 
+————————————————
 ［正版补丁Patch］
 <NekoparaVol1Patch.7z>
+秒传链接：
 c234de42044ebc6c0846873112068cc0#11e7afae656f4171f0762e148c89acd7#184235787#NekoparaVol1Patch.7z
+
 <NekoparaVol2Patch.7z>
+秒传链接：
 9cd4d1ee17e7d113d33ea2800c832797#d0b78668318a73a41c841eac67e417c6#535506892#NekoparaVol2Patch.7z
 
+<NekoparaVol3Patch.7z>
+秒传链接：
+5877045bbd14f9469210b235de52881b#90c7c14f2580ebc96afec01c17250b10#1383274700#NekoparaVol3Patch.7z
+
+<NekoparaVol4Patch.7z>
+秒传链接：
+6c52b133d363ed97af05cc13b290dccb#4c1b31ae9929b64aa14c1e89dc9d7923#2014919882#NekoparaVol4Patch.7z
+
+
+————————————————
 ［手机版Mobile］
 ■■■■■■■■■■■■■■■■请阅读说明！
 ■■■■■ 手机版资源 ■■■■■请阅读说明！
@@ -151,7 +178,6 @@ c234de42044ebc6c0846873112068cc0#11e7afae656f4171f0762e148c89acd7#184235787#Neko
 因为Vol.3使用了CatSystem2引擎，暂时无人移植到krkr手机版（懒）
 ●为什么没有Vol.4？
 因为Vol.4电脑板手机版通用，下载电脑版即可。
-PS：请检查游戏目录下有没有patch.tjs，如果没有请下载并移动到游戏目录！
 还有更多问题可以通过各种途径找网友或Redroadsl会尽力解决。2023.6.22
 
 <NEKOPARA Vol. 0.7z>
@@ -166,13 +192,7 @@ f54aff468c4226bb90b64eec6eb0fd77#54f402ca9ba659bb70a4276fe3232150#630920000#NEKO
 秒传链接：
 fcff2118b235dec17458ba9917701ae5#f1e0d2b71147128670c096c706fe3051#947279957#NEKOPARA Vol. 2.7z
 
-■■■■■■■■■
-■■手机版补丁■■
-■■■■■■■■■
-<patch.tjs>
-秒传链接：
-0365702e1b2a759501a1d1991cedc992#0365702e1b2a759501a1d1991cedc992#130#patch.tjs
-
+————————————————
 ［模拟器Emulator］
 <[Android]Kirikiroid2_1.3.9.apk>
 秒传链接：
@@ -188,5 +208,6 @@ NEKOPARA Vol. 1：c693d165d79c1c0104f6790999409bd34cbf1591262bf8cd0351fe9becd34a
 NEKOPARA Vol. 2：28342b553819c052e4f46c55d909cdbfc59343dea7433bfe3a3bd7e32d01b103
 [Android]Kirikiroid2_1.3.9.apk：7df08d36726e8640cf1f78b0154d19f8a24ccb090be97b9ec7b9de2e55acba5a
 [iOS]Kirikiroid2_1.3.9.ipa：96bb5c01631e2c5927c761b14839dfb53fabaf09d8a20e24250cbc29686a364b
+
 
 结语：由于删减了没用的文件，某些数字纪念品也被删减，如有需要可以私下联系我。
