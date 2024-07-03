@@ -4,6 +4,14 @@
 
 [点我返回主页（喜欢的话，请收藏我的网址！）](https://redroadsl.github.io/)
 
+获取ArtemisSDK的官方途径：[向ies-net发送电子邮件说明](mikage@ies-net.com)    [无法取得？](Redroadsl@outlook.com)
+
+如果使用Notepad++编辑Artemis脚本，请安装语言文件：[Artemis语言文件](https://redroadsl.github.io/learnArtemis/notepad_pp_langdef_artemis.xml)
+
+需要已经编写好的system.ini吗？    [system.ini](https://redroadsl.github.io/learnArtemis/system.ini)
+
+
+
 ## 目录
 
 ### 导入部分：Artemis引擎！强大的视觉小说引擎！
@@ -24,7 +32,7 @@
 
 ### 基础代码快速入门
 
-​	文章未完成。
+​	[CV35895286](https://www.bilibili.com/read/cv35895286) - 2024年07月03日 09:52
 
-​	[代码地址](https://redroadsl.github.io/learnArtemis/)
+​	[本文配套代码](https://redroadsl.github.io/learnArtemis/基础代码快速入门main.iet)   注意：下载后请更改文件名 main.iet
 
